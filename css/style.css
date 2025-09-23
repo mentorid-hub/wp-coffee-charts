@@ -1,0 +1,45 @@
+/*
+ * Style pour le conteneur du graphique
+*/
+[id^="spider-chart-container-"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 2em auto;
+}
+
+/*
+ * Style pour les labels
+*/
+.axis .legend {
+  font-size: 12px;
+  fill: #444444;
+  text-anchor: middle;
+}
+
+/*
+ * Style pour les lignes des axes
+*/
+.axis .line {
+  stroke: #dddddd;
+  stroke-width: 1px;
+}
+
+/*
+ * Style pour les cercles concentriques de la grille
+*/
+.gridCircle {
+  fill: none;
+  stroke: #dddddd;
+  stroke-dasharray: 2, 2;
+}
+
+/*
+ * Styles pour le remplissage (.radarArea) et le contour (.radarStroke)
+ */
+.radarArea,
+.radarStroke {
+  transition: all 0.2s ease-in-out;
+}
