@@ -1,1 +1,1 @@
-# wp-coffee-charts
+# wp-coffee-charts admilin medidations
